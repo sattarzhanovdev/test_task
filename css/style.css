@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+  font-family: open sans;
+}
+
+body{
+  margin: 0;
+  padding: 30px 0;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card{
+  width: 290px;
+  border-radius: 15px;
+  border: 1px solid #828282;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.card .up img{
+  width: 290px;
+}
+
+.card .down{
+  padding: 15px;
+}
+
+.card .down .time li{
+  display: flex;
+  align-items: center;
+  color: #9E9E9E;
+  font-size: 12px;
+}
+
+.card .down .time li p{
+  margin: 0 5px;
+}
+
+.card .down .title h6{
+  color: #404040;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.card .down .checks li{
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.card .down .checks li i {
+  color: #FECF01;
+  font-size: 20px;
+}
+
+.card .down .checks li p {
+  font-size: 13px;
+  margin: 10px 15px;
+  color: #4B4B4B;
+}
+
+.card .down .flights{
+  display: flex;
+  margin-left: 34px;
+}
+
+.card .down .flights div{
+  background: #D9E8FF;
+  margin-right: 5px;
+  padding: 3px 10px;
+  border-radius: 50px;
+}
+
+.card .down .flights div p{
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #343434;
+}
+
+.card .down .price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.card .down .price .left .price_text{
+  margin: 0;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.card .down .price .left p{
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card .down .price .right button{
+  width: 150px;
+  height: 40px;
+  border-radius: 50px;
+  border: 0.5px solid #CBA500;
+  background: #FED74B;
+  color: #404040;
+}
+
+.card .status{
+  position: absolute;
+  top: 25px;
+  left: 0;
+}
+
+.card .status p{
+  padding: 10px 20px;
+  background: #FED74B;
+  color: #3E3E3E;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+.card:nth-child(2){
+  width: 290px;
+  border-radius: 15px;
+  border: 1px solid #828282;
+  position: relative;
+}
+
+.card:nth-child(2) .up img{
+  width: 290px;
+}
+
+.card:nth-child(2) .down{
+  padding: 15px;
+}
+
+.card:nth-child(2) .down .time li{
+  display: flex;
+  align-items: center;
+  color: #9E9E9E;
+  font-size: 12px;
+}
+
+.card:nth-child(2) .down .time li p{
+  margin: 0 5px;
+}
+
+.card:nth-child(2) .down .title h6{
+  color: #404040;
+  font-size: 12px;
+  margin: 10px 0;
+}
+
+.card:nth-child(2) .down .checks li{
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.card:nth-child(2) .down .checks li i {
+  color: #FECF01;
+  font-size: 20px;
+}
+
+.card:nth-child(2) .down .checks li p {
+  font-size: 13px;
+  margin: 10px 15px;
+  color: #4B4B4B;
+}
+
+.card:nth-child(2) .down .flights{
+  display: flex;
+  margin-left: 34px;
+}
+
+.card:nth-child(2) .down .flights div{
+  background: #D9E8FF;
+  margin-right: 5px;
+  padding: 3px 10px;
+  border-radius: 50px;
+}
+
+.card:nth-child(2) .down .flights div p{
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #343434;
+}
+
+.card:nth-child(2) .down .price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.card:nth-child(2) .down .price .left .price_text{
+  margin: 0;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.card:nth-child(2) .down .price .left p{
+  font-size: 10px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card:nth-child(2) .down .price .right button{
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0.5px solid #CBA500;
+  background: #FED74B;
+  color: #404040;
+}
+
+.card:nth-child(2) .status{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.card:nth-child(2) .status p{
+  padding: 10px 20px;
+  background: #7553FF;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+  border-radius: 15px 0 15px 0;
+}
+
+
+
+
+
+.card:nth-child(3) {
+  display: none;
+  position: relative;
+  width: 900px;
+  height: 300px;
+}
+
+.card:nth-child(3) .up img{
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+}
+
+.card:nth-child(3) .down .title h5{
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.card:nth-child(3) .down .checks{
+  margin-top: 10px;
+}
+
+.card:nth-child(3) .down .checks li{
+  margin: -8px 0;
+}
+
+.card:nth-child(3) .flights{
+  position: absolute;
+  top: 200px;
+  right: 160px;
+}
+
+.card:nth-child(3) .flights .active{
+  background: #6BA6FF;
+  box-shadow: 0px 2px 4px 0px #00000040;
+}
+
+.card:nth-child(3) .flights .active p{
+  color: white;
+}
+
+.card:nth-child(3) .down .price{
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.card:nth-child(3) .down .price button{
+  margin-left: 25px;
+  border-radius: 16px;
+  border: 0;
+}
+
+.card:nth-child(3) .status p{
+  background: #6BA6FF;
+  color: white;
+  padding: 10px 30px;
+}
+
+
+
+.card:nth-child(4) {
+  display: none;
+  position: relative;
+  width: 900px;
+  height: 300px;
+}
+
+.card:nth-child(4) .up img{
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+}
+
+.card:nth-child(4) .down .title h5{
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.card:nth-child(4) .down .checks{
+  margin-top: 10px;
+}
+
+.card:nth-child(4) .down .checks li{
+  margin: -8px 0;
+}
+
+.card:nth-child(4) .flights{
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+
+.card:nth-child(4) .flights .active{
+  background: #6BA6FF;
+  box-shadow: 0px 2px 4px 0px #00000040;
+}
+
+.card:nth-child(4) .flights .active p{
+  color: white;
+}
+
+.card:nth-child(4) .down .price{
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.card:nth-child(4) .down .price button{
+  margin-left: 25px;
+  border-radius: 16px;
+  border: 0;
+}
+
+.card:nth-child(4) .status p{
+  background: #FFD83B;
+  color: #323232;
+  padding: 10px 30px;
+}
+
+
+
+.card:nth-child(5) {
+  display: none;
+  position: relative;
+  width: 900px;
+  height: 300px;
+}
+
+.card:nth-child(5) .up img{
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px 0 0 15px;
+}
+
+.card:nth-child(5) .down .title h5{
+  margin: 0;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.card:nth-child(5) .down .checks{
+  margin-top: 10px;
+}
+
+.card:nth-child(5) .down .checks li{
+  margin: -8px 0;
+}
+
+.card:nth-child(5) .flights{
+  position: absolute;
+  top: 200px;
+  right: 100px;
+}
+
+.card:nth-child(5) .flights .active{
+  background: #6BA6FF;
+  box-shadow: 0px 2px 4px 0px #00000040;
+}
+
+.card:nth-child(5) .flights .active p{
+  color: white;
+}
+
+.card:nth-child(5) .down .price{
+  justify-content: left;
+  margin-top: 10px;
+}
+
+.card:nth-child(5) .down .price button{
+  margin-left: 25px;
+  border-radius: 16px;
+  border: 0;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .card:nth-child(3),
+  .card:nth-child(4),
+  .card:nth-child(5){
+    display: flex;
+  }
+  .card:nth-child(1),
+  .card:nth-child(2){
+    display: none;
+  }
+}
